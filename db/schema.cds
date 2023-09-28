@@ -56,4 +56,5 @@ entity Sessions : cuid, managed {
     key musician: Association to Musicians;
     key record: Association to Records;
     hours: Integer;
+    promotion: Boolean default false;
 }
